@@ -7,7 +7,7 @@
     }
   },
   "private": false,
-  "main": "./src/index.ts",
+  "main": "./index.ts",
   "scripts": {
     "start": "ts-node-dev --respawn --transpileOnly .",
     "test:watch": "jest --watchAll",
