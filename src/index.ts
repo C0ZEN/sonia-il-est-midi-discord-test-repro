@@ -1,6 +1,6 @@
-// Import stylesheets
-import './style.css';
+import { getWelcomeMessage } from "./get-welcome-message";
 
-// Write TypeScript code!
-const appDiv: HTMLElement = document.getElementById('app');
-appDiv.innerHTML = `<h1>TypeScript Starter</h1>`;
+const username = "Marco Polo";
+const welcomeMessage: string = getWelcomeMessage(username);
+
+console.log(welcomeMessage);
